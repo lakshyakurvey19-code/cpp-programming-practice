@@ -1,0 +1,30 @@
+﻿# Compiled Binaries & Object Files
+*.exe
+*.out
+*.o
+*.obj
+*.dll
+*.so
+*.dylib
+
+# Build Artifacts & IDE Configurations
+.vscode/
+.vs/
+.idea/
+bin/
+build/
+Debug/
+Release/
+
+# Internal Agent and Configuration files
+.agent/
+.agents/
+*.log
+*.tmp
+*.db
+*.db-shm
+*.db-wal
+
+# Legacy binary folders
+1. Basic/
+2. conditional statement/
