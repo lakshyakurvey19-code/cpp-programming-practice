@@ -1,4 +1,4 @@
-﻿# Compiled Binaries & Object Files
+# Compiled Binaries & Object Files
 *.exe
 *.out
 *.o
@@ -24,7 +24,3 @@ Release/
 *.db
 *.db-shm
 *.db-wal
-
-# Legacy binary folders
-1. Basic/
-2. conditional statement/

@@ -6,7 +6,7 @@ int main() {
     cout << "Enter a character: ";
     cin >> ch;
 
-    ch = tolower(ch);
+    ch = tolower(ch); // covert upper to lowercase
 
     if (ch >= 'a' && ch <= 'z') { 
         if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {

@@ -6,7 +6,6 @@ int main() {
     cout << "Enter a character: ";
     cin >> ch;
 
-    // Check if character is alphabet (A–Z or a–z)
     if ((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z')) {
         cout << ch << " is an alphabet." << endl;
     } else {
