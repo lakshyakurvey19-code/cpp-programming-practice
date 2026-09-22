@@ -18,7 +18,7 @@ int main(){
     if(d>0){
         root1 = (-b + sqrt(d))/(2*a);
         root2 = (-b - sqrt(d))/(2*a);
-        cout << "Teo distinct real roots are"<< root1 << " " << root2;
+        cout << "The distinct real roots are"<< root1 << " " << root2;
     }
     else if(d == 0){
         real = -b/(2*a);

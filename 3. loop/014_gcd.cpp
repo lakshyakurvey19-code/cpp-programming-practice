@@ -6,7 +6,6 @@ int main() {
     cout << "Enter two numbers: ";
     cin >> a >> b;
 
-    // Euclidean algorithm without function
     while(b != 0) {
         int temp = b;
         b = a % b;
