@@ -21,6 +21,7 @@ Release/
 .agents/
 *.log
 *.tmp
+tempCodeRunnerFile*
 *.db
 *.db-shm
 *.db-wal
