@@ -1,8 +1,8 @@
 #include<stdio.h>
 #include<stdlib.h>
 struct node{
-    int num;        //data of the node
-    struct node *next;      //address of the node
+    int num;        
+    struct node *next;      
 }*stnode;
 
 void createNodelist(int n);            

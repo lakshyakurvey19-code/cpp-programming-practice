@@ -3,16 +3,14 @@
 
 struct node 
 {
-    int num;                    // Data of the node
-    struct node *nextptr;       // Address of the node
-}*stnode;                       // Pointer to the starting node
+    int num;                    
+    struct node *nextptr;      
+}*stnode;                       
 
-// Function prototypes
-void createNodeList(int n);     // Function to create the linked list
-void FirstNodeDeletion();	    // Function to delete the first node
-void displayList();             // Function to display the linked list
+void createNodeList(int n);     
+void FirstNodeDeletion();	    
+void displayList();             
 
-// Main function
 int main()
 {
     int n, num, pos;
@@ -34,14 +32,13 @@ int main()
     return 0;
 }
 
-// Function to create a linked list with n nodes
 void createNodeList(int n)
 {
     struct node *fnNode, *tmp;
     int num, i;
     stnode = (struct node *)malloc(sizeof(struct node));
 
-    if(stnode == NULL)  // Check whether stnode is NULL for memory allocation
+    if(stnode == NULL) 
     {
         printf(" Memory can not be allocated.");
     }
@@ -50,14 +47,14 @@ void createNodeList(int n)
         printf(" Input data for node 1 : ");
         scanf("%d", &num);
         stnode-> num = num;      
-        stnode-> nextptr = NULL; // Links the address field to NULL
+        stnode-> nextptr = NULL; 
         tmp = stnode;
 
         for(i = 2; i <= n; i++)
         {
             fnNode = (struct node *)malloc(sizeof(struct node));
 
-            if(fnNode == NULL)  // Check whether fnNode is NULL for memory allocation
+            if(fnNode == NULL)  
             {
                 printf(" Memory can not be allocated.");
                 break;
@@ -66,16 +63,16 @@ void createNodeList(int n)
             {
                 printf(" Input data for node %d : ", i);
                 scanf(" %d", &num);
-                fnNode->num = num;      // Links the num field of fnNode with num
-                fnNode->nextptr = NULL; // Links the address field of fnNode with NULL
-                tmp->nextptr = fnNode;  // Links previous node i.e. tmp to the fnNode
+                fnNode->num = num;      
+                fnNode->nextptr = NULL; 
+                tmp->nextptr = fnNode;  
                 tmp = tmp->nextptr;
             }
         }
     }
 } 
 
-// Function to delete the first node of the list
+
 void FirstNodeDeletion()
 {
     struct node *toDelptr;
@@ -89,11 +86,10 @@ void FirstNodeDeletion()
         toDelptr = stnode;
         stnode = stnode->nextptr;
         printf("\n Data of node 1 which is being deleted is :  %d\n", toDelptr->num);
-        free(toDelptr);  // Clears the memory occupied by the first node
+        free(toDelptr); 
     }
 }
 
-// Function to display the linked list
 void displayList()
 {
     struct node *tmp;
@@ -107,8 +103,8 @@ void displayList()
         tmp = stnode;
         while(tmp != NULL)
         {
-            printf(" Data = %d\n", tmp->num);   // Prints the data of the current node
-            tmp = tmp->nextptr;                 // Advances the position of the current node
+            printf(" Data = %d\n", tmp->num);   
+            tmp = tmp->nextptr;                 
         }
     }
 }
