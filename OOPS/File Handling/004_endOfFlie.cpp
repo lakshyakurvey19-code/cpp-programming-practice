@@ -1,18 +1,16 @@
 #include<iostream>
 #include<fstream>
 #include<string>
-
 using namespace std;
 int main(){
     ifstream in;
-    string st;
-
+    string st, st2;
     in.open("student.txt");
-    while(getline(in,st)){
+    while(in.eof()==0){
+        getline(in,st);
         cout << st << endl;
     }
 
     in.close();
-
-    return 0;
+    return 0;  
 }
