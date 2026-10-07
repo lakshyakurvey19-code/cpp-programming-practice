@@ -1,2 +1,4 @@
-helo Lakshya Kurvey
-good bye
+Name:Shraddha
+ Course : CSE
+name:lakshya rathi
+ Course:IT

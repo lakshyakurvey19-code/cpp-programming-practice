@@ -5,7 +5,7 @@ using namespace std;
 int main(){
 
     ofstream file;
-
+ 
     file.open("student.txt");
  
     file << "Name: lakshya kurvey";
