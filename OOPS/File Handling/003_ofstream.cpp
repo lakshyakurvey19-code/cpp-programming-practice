@@ -5,8 +5,6 @@ int main()
 {
     ofstream file;
     file.open("student.txt");
-    
-
 
     file<<"Name:Shraddha";
     file<<"\n Course : CSE";
