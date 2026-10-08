@@ -8,7 +8,9 @@ int main(){
 
     int age = 15;
     float marks = 30.34;
+    string str = "lakshya kurvey";
 
+    fout << "Student name is :"<< str << endl;
     fout <<"Student age is :"<< age << endl;
     fout <<"Student marks is :"<< marks << endl;
 
