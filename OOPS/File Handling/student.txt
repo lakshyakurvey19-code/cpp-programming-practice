@@ -1,4 +1,2 @@
-Name:Shraddha
- Course : CSE
-name:lakshya rathi
- Course:IT
+Student age is :15
+Student marks is :30.34

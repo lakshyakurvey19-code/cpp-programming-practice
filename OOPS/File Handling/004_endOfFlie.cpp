@@ -3,7 +3,7 @@
 #include<string>
 using namespace std;
 int main(){
-    ifstream in;
+    ifstream in ;
     string st, st2;
     in.open("student.txt");
     while(in.eof()==0){
