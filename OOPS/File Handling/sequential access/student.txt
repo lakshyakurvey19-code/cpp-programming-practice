@@ -1,0 +1,7 @@
+Student name is :lakshya kurvey
+Student age is :15
+Student marks is :30.34
+
+Student name is : lakshya rathi
+student age is :69
+student marks is : 90.34
