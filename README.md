@@ -1,22 +1,46 @@
-# C++ Practice Programs
+# 💻 C & C++ Programming Practice
 
-A structured collection of C and C++ practice programs covering fundamental programming concepts, algorithms, data structures, and Object-Oriented Programming (OOP).
+<div align="center">
+
+<img src="https://img.shields.io/badge/Language-C%20%2F%20C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C and C++" />
+<img src="https://img.shields.io/badge/Topic-Coursework%20%26%20OOP-orange?style=for-the-badge" alt="OOP & Coursework" />
+<img src="https://img.shields.io/badge/Status-Actively%20Maintained-success?style=for-the-badge" alt="Status" />
+
+<p align="center">
+  <strong>Curriculum lab programs, Object-Oriented Programming (OOP) architectures, stream file handling, and core C/C++ syntax exercises.</strong>
+</p>
+
+</div>
+
+---
+
+## 📌 Repository Purpose & Scope
+
+This repository focuses on **C and C++ programming fundamentals, language syntax, Object-Oriented Programming (OOP), and university coursework/lab assignments**.
+
+> 💡 **Repository Distinction:**
+> - **[`cpp-programming-practice`](https://github.com/lakshyakurvey19-code/cpp-programming-practice)** *(This Repo)*: Language features, OOP principles (inheritance, polymorphism, virtual base classes), file I/O, switch-cases, and curriculum lab implementations.
+> - **[`DSA-in-Cpp`](https://github.com/lakshyakurvey19-code/DSA-in-Cpp)**: Dedicated algorithm analysis, time/space complexity, and progressive Data Structures & Algorithms learning.
 
 ---
 
 ## 📁 Repository Structure
 
-- [1. Basic](./1.%20Basic) - Fundamental input/output, arithmetic operations, and basic formulas.
-- [2. Conditional Statement](./2.%20conditional%20statement) - Decision-making statements (`if`, `if-else`, nested conditions).
-- [3. Loop](./3.%20loop) - Iterative statements (`for`, `while`, `do-while`), number properties, and series.
-- [4. Switch Case](./4.%20switch%20case) - Multi-way branch selection and menu-driven programs.
-- [5. Array](./5.%20array) - Array manipulations and algorithmic challenges.
-- [ERP](./ERP) - University/curriculum lab programs (Arrays and Linked Lists in C/C++).
-- [OOPS](./OOPS) - Object-Oriented Programming (Classes, File Handling, Pointers, Polymorphism, Virtual Base Classes).
+```text
+cpp-programming-practice/
+├── 1. Basic/                   # Fundamental I/O, arithmetic calculations, basic formulas
+├── 2. conditional statement/   # If-else decision logic, validation checks, quadratic roots
+├── 3. loop/                    # Iterative control flow, primes, Armstrong, GCD/LCM
+├── 4. switch case/             # Menu-driven branching and multi-way logic
+├── 5. array/                   # Array manipulation and algorithmic exercises
+├── 6. String/                  # Character arrays, null-terminators, getline, and std::string
+├── ERP/                        # Academic coursework & lab assignments (Stack, Queue, Tree, Linked List)
+└── OOPS/                       # Object-Oriented Programming (Classes, Polymorphism, Virtual classes, File I/O)
+```
 
 ---
 
-## 📑 Topics & Programs
+## 📑 Core Syntax & Practice Modules
 
 ### 1. [1. Basic](./1.%20Basic)
 | Program | Description |
@@ -41,7 +65,7 @@ A structured collection of C and C++ practice programs covering fundamental prog
 | [`006_leap_Year.cpp`](./2.%20conditional%20statement/006_leap_Year.cpp) | Leap year validation |
 | [`007_alphabetOrNot.cpp`](./2.%20conditional%20statement/007_alphabetOrNot.cpp) | Alphabet character validation |
 | [`008_vowelOrConsonant.cpp`](./2.%20conditional%20statement/008_vowelOrConsonant.cpp) | Vowel or consonant check |
-| [`009_charcheck.cpp`](./2.%20conditional%20statement/009_charcheck.cpp) | Character type classifier (alphabet, digit, special symbol) |
+| [`009_charcheck.cpp`](./2.%20conditional%20statement/009_charcheck.cpp) | Character type classifier |
 | [`010_weekday.cpp`](./2.%20conditional%20statement/010_weekday.cpp) | Day of week from number |
 | [`011_profite_loss.cpp`](./2.%20conditional%20statement/011_profite_loss.cpp) | Profit or loss calculation |
 | [`012_valid_Triangle.cpp`](./2.%20conditional%20statement/012_valid_Triangle.cpp) | Triangle validity check by angles |
@@ -74,11 +98,11 @@ A structured collection of C and C++ practice programs covering fundamental prog
 ### 4. [4. Switch Case](./4.%20switch%20case)
 | Program | Description |
 | :--- | :--- |
-| [`001_calculator.cpp`](./4.%20switch%20case/001_calculator.cpp) | Simple arithmetic calculator using switch |
-| [`002_days.cpp`](./4.%20switch%20case/002_days.cpp) | Day of the week display |
+| [`001_calculator.cpp`](./4.%20switch%20case/001_calculator.cpp) | Arithmetic calculator using switch |
+| [`002_days.cpp`](./4.%20switch%20case/002_days.cpp) | Day of week display |
 | [`003_grade_system.cpp`](./4.%20switch%20case/003_grade_system.cpp) | Student grade evaluation |
-| [`004_removeVowel.cpp`](./4.%20switch%20case/004_removeVowel.cpp) | Vowel removal using switch case |
-| [`005_cylinder.cpp`](./4.%20switch%20case/005_cylinder.cpp) | Volume and surface area calculations for a cylinder |
+| [`004_removeVowel.cpp`](./4.%20switch%20case/004_removeVowel.cpp) | Vowel filter using switch |
+| [`005_cylinder.cpp`](./4.%20switch%20case/005_cylinder.cpp) | Cylinder volume and surface area calculations |
 
 ### 5. [5. Array](./5.%20array)
 | Program | Description |
@@ -86,74 +110,126 @@ A structured collection of C and C++ practice programs covering fundamental prog
 | [`001_insertion.cpp`](./5.%20array/001_insertion.cpp) | Array element insertion |
 | [`002_trappingRainwater.cpp`](./5.%20array/002_trappingRainwater.cpp) | Trapping Rain Water problem |
 
----
-
-## 🛠️ Additional Modules
-
-### [ERP](./ERP)
-Curriculum and lab assignment practice programs:
-
-#### Array (`ERP/ARRAY`)
+### 6. [6. String](./6.%20String)
 | Program | Description |
 | :--- | :--- |
-| [`001_greaterNumber.c`](./ERP/ARRAY/001_greaterNumber.c) | Elements greater than a given value |
-| [`002_frequencyElement.c`](./ERP/ARRAY/002_frequencyElement.c) | Frequency of each element in an array |
-| [`003_sum_of_2.c`](./ERP/ARRAY/003_sum_of_2.c) | Two sum problem |
+| [`001_char_array.cpp`](./6.%20String/001_char_array.cpp) | Character array fundamentals |
+| [`002_NullChar.cpp`](./6.%20String/002_NullChar.cpp) | Null-terminator (`\0`) handling |
+| [`003_getline.cpp`](./6.%20String/003_getline.cpp) | Full line reading with `getline` |
+| [`004_string.cpp`](./6.%20String/004_string.cpp) | Standard `std::string` operations |
+| [`005_reverseString.cpp`](./6.%20String/005_reverseString.cpp) | In-place string reversal |
 
-#### Linked List (`ERP/linklist`)
+---
+
+## 🛠️ Academic Coursework & Labs ([ERP](./ERP))
+
+### Array Labs (`ERP/ARRAY`)
+| Program | Description |
+| :--- | :--- |
+| [`001_greaterNumber.c`](./ERP/ARRAY/001_greaterNumber.c) | Elements greater than a given threshold |
+| [`002_frequencyElement.c`](./ERP/ARRAY/002_frequencyElement.c) | Element frequency counter |
+| [`003_sum_of_2.c`](./ERP/ARRAY/003_sum_of_2.c) | Two sum implementation in C |
+
+### Linked List Labs (`ERP/linklist`)
 | Program | Description |
 | :--- | :--- |
 | [`001_sll_basic.c`](./ERP/linklist/001_sll_basic.c) | Singly linked list node structure definition |
-| [`002_sll_create_display.cpp`](./ERP/linklist/002_sll_create_display.cpp) | Create and display a singly linked list |
-| [`003_sll_delete_first.cpp`](./ERP/linklist/003_sll_delete_first.cpp) | Delete first node in a singly linked list |
-| [`004_sll_delete_last.cpp`](./ERP/linklist/004_sll_delete_last.cpp) | Delete last node in a singly linked list |
-| [`005_dll_create_display.cpp`](./ERP/linklist/005_dll_create_display.cpp) | Create and display a doubly linked list |
-| [`006_cll_create_display.cpp`](./ERP/linklist/006_cll_create_display.cpp) | Create and display a circular linked list |
+| [`002_sll_create_display.cpp`](./ERP/linklist/002_sll_create_display.cpp) | Create and display singly linked list |
+| [`003_sll_delete_first.cpp`](./ERP/linklist/003_sll_delete_first.cpp) | Delete head node in singly linked list |
+| [`004_sll_delete_last.cpp`](./ERP/linklist/004_sll_delete_last.cpp) | Delete tail node in singly linked list |
+| [`005_dll_create_display.cpp`](./ERP/linklist/005_dll_create_display.cpp) | Doubly linked list creation and traversal |
+| [`006_cll_create_display.cpp`](./ERP/linklist/006_cll_create_display.cpp) | Circular linked list creation and display |
+
+### Stack Labs (`ERP/Stack`)
+| Program | Description |
+| :--- | :--- |
+| [`001_stack.cpp`](./ERP/Stack/001_stack.cpp) | Array-based stack (push, pop, top) |
+| [`002_factorsUsingstack.c`](./ERP/Stack/002_factorsUsingstack.c) | Factor calculation utilizing stack |
+| [`003_palindrome_checker.cpp`](./ERP/Stack/003_palindrome_checker.cpp) | Palindrome validation using stack |
+| [`004_valid_expression.cpp`](./ERP/Stack/004_valid_expression.cpp) | Balanced parentheses checker |
+
+### Queue Labs (`ERP/Queue`)
+| Program | Description |
+| :--- | :--- |
+| [`001_simple_queue.cpp`](./ERP/Queue/001_simple_queue.cpp) | Linear array-based queue |
+| [`002_double_queue.cpp`](./ERP/Queue/002_double_queue.cpp) | Double-ended queue (deque) operations |
+| [`003_priority_queue.cpp`](./ERP/Queue/003_priority_queue.cpp) | Priority queue implementation |
+| [`004_circular_queue.cpp`](./ERP/Queue/004_circular_queue.cpp) | Circular queue implementation |
+
+### Tree Labs (`ERP/Tree`)
+| Program | Description |
+| :--- | :--- |
+| [`ll.cpp`](./ERP/Tree/ll.cpp) | Binary tree node structure & manual node linkage |
 
 ---
 
-### [OOPS](./OOPS)
-Object-Oriented Programming practice programs in C++:
+## 🏛️ Object-Oriented Programming ([OOPS](./OOPS))
 
-#### Fundamentals
+### Classes & Constructors
 | Program | Description |
 | :--- | :--- |
 | [`001_userDefineDataType.cpp`](./OOPS/001_userDefineDataType.cpp) | User-defined data types using classes |
-| [`002_carClass.cpp`](./OOPS/002_carClass.cpp) | Car class with methods and attributes |
-| [`003_passing_by_values.cpp`](./OOPS/003_passing_by_values.cpp) | Passing objects by value |
-| [`004_constructors.cpp`](./OOPS/004_constructors.cpp) | Class constructors |
-| [`005_inheritance.cpp`](./OOPS/005_inheritance.cpp) | Class inheritance |
+| [`002_carClass.cpp`](./OOPS/002_carClass.cpp) | Class encapsulation, methods, and attributes |
+| [`003_passing_by_values.cpp`](./OOPS/003_passing_by_values.cpp) | Passing class objects by value |
+| [`004_constructors.cpp`](./OOPS/004_constructors.cpp) | Default and parameterized constructors |
+| [`005_inheritance.cpp`](./OOPS/005_inheritance.cpp) | Single and hierarchical inheritance |
 
-#### File Handling (`OOPS/File Handling`)
+### File Handling (`OOPS/File Handling`)
 | Program | Description |
 | :--- | :--- |
-| [`001_first.cpp`](./OOPS/File%20Handling/001_first.cpp) | Writing to a text file with `ofstream` |
-| [`002_ifstream.cpp`](./OOPS/File%20Handling/002_ifstream.cpp) | Reading from a text file with `ifstream` |
+| [`001_first.cpp`](./OOPS/File%20Handling/001_first.cpp) | File writing using `ofstream` |
+| [`002_ifstream.cpp`](./OOPS/File%20Handling/002_ifstream.cpp) | File reading using `ifstream` |
 | [`003_ofstream.cpp`](./OOPS/File%20Handling/003_ofstream.cpp) | Output stream operations |
+| [`004_endOfFlie.cpp`](./OOPS/File%20Handling/004_endOfFlie.cpp) | End of file detection (`eof()`) |
+| [`005_formatedoutput.cpp`](./OOPS/File%20Handling/005_formatedoutput.cpp) | Formatted stream output |
+| [`006_formatedInput.cpp`](./OOPS/File%20Handling/006_formatedInput.cpp) | Formatted stream input |
+| [`001_read_file.cpp`](./OOPS/File%20Handling/sequential%20access/001_read_file.cpp) | Sequential record reading |
+| [`002_write_file.cpp`](./OOPS/File%20Handling/sequential%20access/002_write_file.cpp) | Sequential record writing |
 
-#### Pointers & Functions (`OOPS/pointer`)
+### Pointers & Method Overloading (`OOPS/pointer`)
 | Program | Description |
 | :--- | :--- |
-| [`001_q_1.cpp`](./OOPS/pointer/001_q_1.cpp) | Pointer to object (Student class) |
-| [`002_employee.cpp`](./OOPS/pointer/002_employee.cpp) | Employee object pointer manipulation |
+| [`001_q_1.cpp`](./OOPS/pointer/001_q_1.cpp) | Pointer to object instances |
+| [`002_employee.cpp`](./OOPS/pointer/002_employee.cpp) | Pointer manipulation on class records |
 | [`003_animal.cpp`](./OOPS/pointer/003_animal.cpp) | Pointers in base and derived classes |
-| [`004_employee_2.cpp`](./OOPS/pointer/004_employee_2.cpp) | Dynamic employee record management |
-| [`005_function_overloading_class.cpp`](./OOPS/pointer/005_function_overloading_class.cpp) | Function overloading in classes |
-| [`006_function_overloading_class_2.cpp`](./OOPS/pointer/006_function_overloading_class_2.cpp) | Method overloading with varying signatures |
-| [`007_all_overlapping.cpp`](./OOPS/pointer/007_all_overlapping.cpp) | Overloading and overriding interactions |
-| [`008_area_all.cpp`](./OOPS/pointer/008_area_all.cpp) | Overloaded area calculation functions |
+| [`004_employee_2.cpp`](./OOPS/pointer/004_employee_2.cpp) | Dynamic memory allocation for objects |
+| [`005_function_overloading_class.cpp`](./OOPS/pointer/005_function_overloading_class.cpp) | Function overloading within classes |
+| [`006_function_overloading_class_2.cpp`](./OOPS/pointer/006_function_overloading_class_2.cpp) | Varied signatures in method overloading |
+| [`007_all_overlapping.cpp`](./OOPS/pointer/007_all_overlapping.cpp) | Overloading vs overriding interactions |
+| [`008_area_all.cpp`](./OOPS/pointer/008_area_all.cpp) | Overloaded geometric area calculations |
 | [`009_channel.cpp`](./OOPS/pointer/009_channel.cpp) | Pointer usage in channel structures |
 
-#### Polymorphism (`OOPS/pointer/polymorphism`)
+### Polymorphism & Virtual Base Classes
 | Program | Description |
 | :--- | :--- |
-| [`001_datatype_change.cpp`](./OOPS/pointer/polymorphism/001_datatype_change.cpp) | Compile-time polymorphism and type modification |
-| [`002_q_3.cpp`](./OOPS/pointer/polymorphism/002_q_3.cpp) | Polymorphism practice problem |
+| [`001_datatype_change.cpp`](./OOPS/pointer/polymorphism/001_datatype_change.cpp) | Compile-time polymorphism |
+| [`002_q_3.cpp`](./OOPS/pointer/polymorphism/002_q_3.cpp) | Polymorphism problem solving |
 | [`003_function_overwrite.cpp`](./OOPS/pointer/polymorphism/003_function_overwrite.cpp) | Function overriding |
-| [`004_virtual_employee.cpp`](./OOPS/pointer/polymorphism/004_virtual_employee.cpp) | Virtual functions with Employee class |
-| [`005_polymorphismUsingvirtual.cpp`](./OOPS/pointer/polymorphism/005_polymorphismUsingvirtual.cpp) | Runtime polymorphism using `virtual` keyword |
+| [`004_virtual_employee.cpp`](./OOPS/pointer/polymorphism/004_virtual_employee.cpp) | Virtual member functions |
+| [`005_polymorphismUsingvirtual.cpp`](./OOPS/pointer/polymorphism/005_polymorphismUsingvirtual.cpp) | Runtime dynamic dispatch using `virtual` |
+| [`001_pg_1.cpp`](./OOPS/virtual%20base%20class/001_pg_1.cpp) | Resolving diamond inheritance using virtual base classes |
 
-#### Virtual Base Class (`OOPS/virtual base class`)
-| Program | Description |
-| :--- | :--- |
-| [`001_pg_1.cpp`](./OOPS/virtual%20base%20class/001_pg_1.cpp) | Resolving diamond problem using virtual base class |
+---
+
+## 🚀 How to Run
+
+Compile any source file using `g++` (or `gcc` for `.c` files):
+
+```bash
+# Compile C++ program
+g++ "OOPS/004_constructors.cpp" -o constructors
+./constructors
+
+# Compile C lab program
+gcc "ERP/Stack/002_factorsUsingstack.c" -o factors
+./factors
+```
+
+---
+
+## 👨‍💻 Author
+
+**Lakshya Kurvey**  
+B.Tech Information Technology Student  
+Shri Shankaracharya Institute of Professional Management & Technology (SSIPMT), Raipur  
+GitHub: [@lakshyakurvey19-code](https://github.com/lakshyakurvey19-code)
