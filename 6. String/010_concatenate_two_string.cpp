@@ -8,7 +8,6 @@ int main(){
     cout <<"Enter the first string: ";
     getline(cin,s1);
 
-
     cout <<"Enter the second string: ";
     getline(cin, s2);
 
