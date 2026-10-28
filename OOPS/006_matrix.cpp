@@ -32,7 +32,7 @@ public:
         }
     }
 
-    void subtract(Matrix b){
+    void subt(Matrix b){
         cout << "Subtraction:\n";
         for (int i = 0; i < r; i++) {
             for (int j = 0; j < c; j++)
@@ -41,7 +41,7 @@ public:
         }
     }
 
-    void multiply(Matrix b){
+    void multi(Matrix b){
         cout << "Multiplication:\n";
         for (int i = 0; i < r; i++) {
             for (int j = 0; j < b.c; j++){
@@ -58,16 +58,14 @@ public:
 int main(){
     Matrix A, B;
 
-    cout << "First matrix:\n";
+    cout << "First matrix:" << endl;
     A.read();
 
-    cout << "Second matrix:\n";
+    cout << "Second matrix:" << endl;
     B.read();
-
-
     A.add(B);
-    A.subtract(B);
-    A.multiply(B);
-
+    A.subt(B);
+    A.multi(B);
+    
     return 0;
 }
