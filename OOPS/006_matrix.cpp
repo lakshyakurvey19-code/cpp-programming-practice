@@ -9,7 +9,7 @@ public:
         cout << "Enter rows and columns: ";
         cin >> r >> c;
 
-        cout << "Enter elements:\n";
+        cout << "Enter elements:" << endl;
         for (int i = 0; i < r; i++)
             for (int j = 0; j < c; j++)
                 cin >> a[i][j];
@@ -24,7 +24,7 @@ public:
     }
 
     void add(Matrix b){
-        cout << "Addition:\n";
+        cout << "Addition:" << endl;
         for (int i = 0; i < r; i++){
             for (int j = 0; j < c; j++)
                 cout << a[i][j] + b.a[i][j] << " ";
@@ -33,7 +33,7 @@ public:
     }
 
     void subt(Matrix b){
-        cout << "Subtraction:\n";
+        cout << "Subtraction:" << endl;
         for (int i = 0; i < r; i++) {
             for (int j = 0; j < c; j++)
                 cout << a[i][j] - b.a[i][j] << " ";
@@ -42,7 +42,7 @@ public:
     }
 
     void multi(Matrix b){
-        cout << "Multiplication:\n";
+        cout << "Multiplication:" << endl;
         for (int i = 0; i < r; i++) {
             for (int j = 0; j < b.c; j++){
                 int sum = 0;
@@ -66,6 +66,6 @@ int main(){
     A.add(B);
     A.subt(B);
     A.multi(B);
-    
+
     return 0;
 }
