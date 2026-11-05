@@ -1,4 +1,3 @@
-
 #include <iostream>
 using namespace std;
 
@@ -14,7 +13,7 @@ int main()
     cin >> r2 >> c2;
 
     if (c1!=r2){
-        cout << "Matrix multiplication is not possible.";
+        cout <<"Matrix multiplication is not possible.";
         return 0;
     }
 
@@ -26,14 +25,14 @@ int main()
     }
 
     cout << "Enter second matrix elements:\n";
-    for (int i=0; i<r2; i++){
-        for (int j=0; j<c2; j++){
+    for(int i=0; i<r2; i++){
+        for(int j=0; j<c2; j++){
             cin >> b[i][j];
         }
     }
 
-    for (int i=0; i<r1; i++){
-        for (int j=0; j<c2; j++){
+    for(int i=0; i<r1; i++){
+        for(int j=0; j<c2; j++){
             multi[i][j] = 0;
         }
     }
