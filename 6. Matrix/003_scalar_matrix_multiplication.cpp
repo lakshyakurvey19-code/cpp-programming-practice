@@ -18,7 +18,7 @@ int main(){
     cout <<"Enter the value: ";
     cin >> x;
 
-    cout <<"Addition of Matrices:" << endl;
+    cout <<"multiplication of Matrix with scalar value:" << endl;
     for (int i=0; i<n; i++){
         for (int j=0; j<m; j++){
             cout << arr[i][j] * x  << " "; 
